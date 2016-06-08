@@ -1,1 +1,1 @@
-"# Hanson-Image-Multi-Selector" 
+Hanson-Image-Multi-Selector
