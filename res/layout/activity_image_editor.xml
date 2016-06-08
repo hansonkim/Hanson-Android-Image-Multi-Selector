@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:foregroundGravity="center" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_weight="0"
+        android:background="#eaeaea"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="left|center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_minus_ninety_degree"
+                android:layout_width="32dp"
+                android:layout_height="26dip"
+                android:background="@drawable/btn_minus_ninety" />
+
+            <Button
+                android:id="@+id/btn_plus_ninety_degree"
+                android:layout_width="32dp"
+                android:layout_height="26dip"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_plus_ninety" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_iev_ok"
+                android:layout_width="82dp"
+                android:layout_height="27dp"
+                android:background="@drawable/btn_ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moriahtown.imagemultiselection.util.SqureRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:scaleType="centerCrop" />
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:button="@drawable/cb_join" />
+
+</com.moriahtown.imagemultiselection.util.SqureRelativeLayout>

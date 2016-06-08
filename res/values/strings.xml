@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">ImageMultiSelection</string>
+    <string name="back_to_album">앨범으로</string>
+    <string name="cancel_select_image">선택취소</string>
+    <string name="open_album">open album</string>
+    <string name="exceed_limit_count">%1d개까지만 선택가능합니다.</string>
+    <string name="select_image">사진선택</string>
+    <string name="cancel">취소</string>
+    <string name="attact_image">첨부하기</string>
+    <string name="delimiter">/</string>
+    <string name="edit">편집</string>
+</resources>

@@ -1,0 +1,8 @@
+.svn/
+.project
+.settings/
+.classpath
+bin/
+gen/
+project.properties
+
